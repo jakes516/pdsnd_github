@@ -3,7 +3,7 @@ Created 5/1/2020
 Udacity Python Project
 
 
-A python file that statistically analyzes bikeshare data.
+A python file that statistically analyzes bikeshare data from Washington, Chicago, and New York City.
 
 
 bikeshare.py
