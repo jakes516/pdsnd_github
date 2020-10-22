@@ -2,7 +2,6 @@
 #change 2 made for refactoring
 import time
 import pandas as pd
-import numpy as np
 
 
 CITY_DATA = { 'chicago': './chicago.csv',
@@ -212,8 +211,11 @@ def main():
 
 
         user_statistics = user_stats(df)
-        print(user_statistics)
-        print('\nData ordered as user types and gender counts\nearliest birth year, most recent birth year, most common birth year)')
+        print(str(user_statistics[0])+"\n")
+        print(str(user_statistics[1])+"\n")
+        print(str(user_statistics[2]) + ": Earliest Birth Year")
+        print(str(user_statistics[3]) + ": Most Recent Birth Year")
+        print(str(user_statistics[4]) + ": Most Common Birth Year")
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
