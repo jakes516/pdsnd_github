@@ -1,14 +1,14 @@
 
-#Udacity Bikeshare Python Project
+# Udacity Bikeshare Python Project
 
-##Date Finished
+## Date Finished
 5/1/2020
 
-##Description
+## Description
 A python file that statistically analyzes bikeshare data from Washington, Chicago, and New York City using data frames.
 Runs on Python 3.7 with Pandas, Numpy, and Time. (All dependencies listed in [*requirements.txt*](requirements.txt))
 
-##Files Used
+## Files Used
 
 bikeshare.py
 chicago.csv
